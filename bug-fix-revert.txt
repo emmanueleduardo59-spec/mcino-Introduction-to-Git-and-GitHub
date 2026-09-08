@@ -1,1 +1,7 @@
-Bug fix revert
+$ curl -s https://api.github.com/repos/emmanueleduardo59-spec/mcino-Introduction-to-Git-and-GitHub | grep -E '"fork"|"full_name"'
+  "full_name": "emmanueleduardo59-spec/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "fork": false,
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "fork": false,
